@@ -97,3 +97,37 @@ iframe {
   aspect-ratio: 16 / 9;
   padding: 1rem;
 }
+
+@media (min-width: 770px) {
+  #section3 .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr, 2fr;
+    gap: 15px;
+  }
+  #section3 .section_wrapper img {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 /3;
+  }
+  #section3 .section_wrapper h1 {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  #section3 .section_wrapper p {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2;
+  }
+  h1 {
+    font-size: 4rem;
+    grid-column: 1 / 3;
+    grid-row: 3;
+  }
+  .front_text {
+    font-size: 2rem;
+    grid-column: 1 / 3;
+    grid-row: 4;
+  }
+}
