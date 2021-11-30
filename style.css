@@ -11,6 +11,31 @@ video {
   display: block;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  padding: 0.5rem;
+  background-color: black;
+  opacity: 80%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: gothic-open-shaded, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+a:hover {
+  color: darkslategray;
+}
+
 h2 {
   font-family: fantasy;
   font-size: 2rem;
@@ -28,7 +53,7 @@ p {
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2.5rem;
-  color: black;
+  color: #4a3528;
   padding: 10px;
   grid-column: 1 / 3;
   grid-row: 3;
@@ -57,10 +82,10 @@ address {
 .front_text {
   font-family: monospace;
   font-size: 1rem;
-  color: black;
+  color: white;
   padding: 10px;
   grid-column: 1 / 3;
-  grid-row: 4;
+  grid-row: 5;
 }
 
 video {
@@ -121,13 +146,13 @@ iframe {
     grid-row: 2;
   }
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     grid-column: 1 / 3;
-    grid-row: 3;
+    grid-row: 2;
   }
   .front_text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     grid-column: 1 / 3;
-    grid-row: 4;
+    grid-row: 3;
   }
 }
